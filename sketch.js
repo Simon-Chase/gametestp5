@@ -9,7 +9,8 @@ function draw() {
   rectMode(CENTER);
   noStroke();
   push();
+  translate(300, 200);
   rotate(rotationX);
-  rect(300, 200, 300, 200);
+  rect(0, 0, 300, 200);
   pop();
 }
