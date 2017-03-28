@@ -10,7 +10,7 @@ function draw() {
   noStroke();
   push();
   translate(300, 200);
-  rotate(-rotationX/4);
+  rotate(-rotationX/2);
   rect(0, 0, 300, 200);
   pop();
 }
