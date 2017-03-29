@@ -13,5 +13,7 @@ function draw() {
   rotate(-rotationX);
   rect(0, 0, 300, 200);
   pop();
-  text(rotateZ, 10, 10);
+  fill(255);
+  textAlign(CENTER)
+  text(rotateZ, 300, 200);
 }
