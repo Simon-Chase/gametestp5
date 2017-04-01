@@ -57,11 +57,7 @@ function setup() {
 }
 
 function draw() {
-    if (parseFloat(rotationX) === rotationX) {
-        grav.set(cos(-rotationX), sin(-rotationX));
-    } else {
-        grav.set(0, 1);
-    }
+    grav.set(0, 1);
     background(255);
     ball.update();
     ball.collide();
