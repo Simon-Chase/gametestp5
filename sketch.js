@@ -8,9 +8,10 @@ function draw() {
     textSize(200);
     textAlign(CENTER);
     push();
+    translate(300, 300);
     rotate(-rotationX);
     fill(0);
     noStroke();
-    text('^', 300, 300);
+    text('^', 0, 0);
     pop();
 }
