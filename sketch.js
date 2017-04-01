@@ -1,5 +1,6 @@
 var grav, Block, blocks, Ball, ball;
 function setup() {
+    angleMode('degrees')
     createCanvas(600, 600);
     grav = createVector(0, 0);
     Block = function(x, y, W, H) {
@@ -57,7 +58,7 @@ function setup() {
 }
 
 function draw() {
-    grav.set(0, 1);
+    grav.set(cos(-rotationX), sin(-rotationX));
     background(255);
     ball.update();
     ball.collide();
