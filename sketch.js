@@ -8,7 +8,7 @@ function draw() {
     textSize(200);
     textAlign(CENTER);
     push();
-    rotate();
+    rotate(-rotationX);
     fill(0);
     noStroke();
     text('^', 300, 300);
