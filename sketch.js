@@ -58,7 +58,7 @@ function setup() {
 }
 
 function draw() {
-    grav.set(cos(-rotationX), sin(-rotationX));
+    grav.set(cos(90 - rotationX), sin(90 - rotationX));
     background(255);
     ball.update();
     ball.collide();
